@@ -14,6 +14,11 @@ class Song
     save.Song 
   end 
    
-   def 
+   def self.new_by_name(name)
+     self.all.new {|song| song.name == name}
+   end 
+   
+   def.create_by_name(name)
+ end 
 
 end
