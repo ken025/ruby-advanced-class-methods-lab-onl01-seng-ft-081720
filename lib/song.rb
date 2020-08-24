@@ -18,7 +18,7 @@ class Song
      self.all.new {|song| song.name == name}
    end 
    
-   def.create_by_name(name)
+   def create_by_name(name)
  end 
 
 end
